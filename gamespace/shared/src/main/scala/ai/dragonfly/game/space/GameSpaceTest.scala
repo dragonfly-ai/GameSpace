@@ -2,7 +2,7 @@ package ai.dragonfly.game.space
 
 import ai.dragonfly.math.vector.Vector2
 
-object TestGameSpace {
+object GameSpaceTest {
   def run(): Unit = {
 
 //    val b1 = Body2Demo()

@@ -15,7 +15,7 @@ publishTo in ThisBuild := Some(Resolver.file("file",  new File( "/var/www/maven"
 val gamespace = crossProject.settings(
   // shared settings
   libraryDependencies ++= Seq(
-    "ai.dragonfly.code" %%% "vector" % "0.1",
+    "ai.dragonfly.code" %%% "vector" % "0.1"
   )
 ).jsSettings(
   // JS-specific settings here
